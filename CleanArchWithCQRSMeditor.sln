@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchWithCQRSMeditor.API", "CleanArchWithCQRSMeditor.API\CleanArchWithCQRSMeditor.API.csproj", "{1456ABE6-C5A2-4B75-8FFF-B3FA7232B1F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6803633E-E480-42D9-880E-F74ECB4969BB} = {6803633E-E480-42D9-880E-F74ECB4969BB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchWithCQRSMeditor.Domain", "CleanArchWithCQRSMeditor.Domain\CleanArchWithCQRSMeditor.Domain.csproj", "{1E2AF242-C435-49F4-976E-3923EE8ED8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchWithCQRSMeditor.Application", "CleanArchWithCQRSMeditor.Application\CleanArchWithCQRSMeditor.Application.csproj", "{6803633E-E480-42D9-880E-F74ECB4969BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1456ABE6-C5A2-4B75-8FFF-B3FA7232B1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1456ABE6-C5A2-4B75-8FFF-B3FA7232B1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1456ABE6-C5A2-4B75-8FFF-B3FA7232B1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1456ABE6-C5A2-4B75-8FFF-B3FA7232B1F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E2AF242-C435-49F4-976E-3923EE8ED8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E2AF242-C435-49F4-976E-3923EE8ED8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E2AF242-C435-49F4-976E-3923EE8ED8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E2AF242-C435-49F4-976E-3923EE8ED8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6803633E-E480-42D9-880E-F74ECB4969BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6803633E-E480-42D9-880E-F74ECB4969BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6803633E-E480-42D9-880E-F74ECB4969BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6803633E-E480-42D9-880E-F74ECB4969BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F21B4B38-A78A-4F27-8D2C-8C3769066458}
+	EndGlobalSection
+EndGlobal

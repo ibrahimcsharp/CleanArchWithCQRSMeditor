@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Blogs\Command\CreateBlog\" />
+    <Folder Include="Blogs\Command\DeleteBlog\" />
+    <Folder Include="Blogs\Command\UpdateBlog\" />
+    <Folder Include="Blogs\Queries\GetBlogs\" />
+    <Folder Include="Blogs\Queries\GetBlogById\" />
+    <Folder Include="Common\Behaviours\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Mappings\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchWithCQRSMeditor.Domain\CleanArchWithCQRSMeditor.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
