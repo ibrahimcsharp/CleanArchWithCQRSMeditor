@@ -10,6 +10,9 @@ namespace CleanArchWithCQRSMeditor.Application
 {
     public static class ConfigureServices
     {
+        #region Application layer have the domian layer as a dependency
+        #endregion
+
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
